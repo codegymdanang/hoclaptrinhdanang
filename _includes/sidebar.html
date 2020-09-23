@@ -1,0 +1,55 @@
+<div class="sidebar_widget">
+    <!-- Stay Connect -->
+    <div class="single_sidebar_wiget">
+        <div class="sidebar_tittle">
+            <h3>Stay Connect</h3>
+        </div>
+        <div class="social_share_icon tags">
+            <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/groups/danangagiledeveloper/"><i class="ti-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC8VjQlFZWLrB-Nq7pQ0zGgA"><i class="ti-youtube"></i></a></li>
+                <li><a href="https://github.com/levunguyen"><i class="ti-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="single_sidebar_wiget">
+        <div class="sidebar_tittle">
+            <h3>Categories</h3>
+        </div>
+        <div class="single_catagory_item category">
+            <ul class="list-unstyled">
+                <li><a href="#">Java</a> <span>({{ site.categories.laptrinhjava | size }})</span> </li>
+                <li><a href="#">Agile</a> <span>(15)</span> </li>
+                <li><a href="#">Tester</a> <span>(15)</span> </li>
+                <li><a href="#">Production</a> <span>(15)</span> </li>
+                <li><a href="#">Mangement</a> <span>(15)</span> </li>
+                <li><a href="#">4.0</a> <span>(15)</span> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Popular Post -->
+    <div class="single_sidebar_wiget">
+        <div class="sidebar_tittle">
+            <h3>Popular Feeds</h3>
+        </div>
+        {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:9 %}
+        <ul id='relatedposts'>
+            {% for post in posts %}
+            <div class="single_catagory_post post_2 ">
+                <div class="post_text_1 pr_30">
+                    <a href='{{post.url | relative_url }}'>
+                        <h5>{{post.title}}</h5>
+                    </a>
+                    <p><span>Posted By nguyen.le </span> {{ post.date | date: "%B %d, %Y"}}</p>
+                </div>
+            </div>
+            {% endfor %}
+            <span class='list-item' data-label='Blogging'></span>
+        </ul>
+
+
+    </div>
+    <!-- Popular Post -->
+
+
+</div>

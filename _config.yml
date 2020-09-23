@@ -1,0 +1,32 @@
+permalink: pretty
+baseurl: /
+url: "https://levunguyen.com"
+full_name: "Lê Vũ Nguyên"
+first_name: "Vũ "
+last_name: "Nguyên"
+blog_title: "Học lập trình "
+author_img_name_path: "/images/users/user.jpg"
+disqus_shortname: "levunguyen"
+copyright_year: "2020"
+google_analytics_code: ""
+aboutme: "Something about the author here"
+twitter: "Ghosteyes1"
+github: "codegymdanang"
+facebook: "levunguyen"
+
+
+linkined_url: ""
+theme: jekyll-theme-minimal
+# Paginate post in page
+paginate: 16
+paginate_path: /page:num/
+# Paginate post in page
+
+# facebook comment
+fbcomments: yes
+
+
+# Enable plugin in site
+plugins:
+ - jekyll-paginate
+ - jekyll-seo-tag
