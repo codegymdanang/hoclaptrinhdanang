@@ -130,7 +130,9 @@
 									<!-- Java Book Overview Single Content -->
 									<div class="col-md-3 col-sm-6">
 										<div class="mu-book-overview-single">
-											<img style="text-align: center;" src='{{ "/images/books/java.png" | prepend: site.baseurl }}' >
+											<img style="text-align: center;" src='{{ post.image | prepend: site.baseurl }}' >
+											<h4> {{ post.title }}</h4>
+											<p>{{ post.description }}</p>
 											<h4><a href="{{ post.link | prepend: site.baseurl }}">Download</a></h4>
 										</div>
 									</div>
