@@ -34,3 +34,12 @@ https://seositecheckup.com/
 https://github.com/StylishThemes/Syntax-Themes/tree/master/pygments/css-github
 ### text theme
 https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start
+
+### Download
+Here is my solution. I have a "myname".github.io, I created a folder /download inside the myname.github.io and inside this download folder I uploaded the files I want to include in my posts.
+
+In the single post then I created the following code:
+
+some text and [here is possible to download the file in PDF][1]
+
+[1]:{{ site.url }}/download/file.pdf
