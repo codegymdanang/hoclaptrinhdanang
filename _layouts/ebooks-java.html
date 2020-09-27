@@ -117,7 +117,7 @@
 					<div class="mu-book-overview-area">
 
 						<div class="mu-heading-area">
-							<h2 class="mu-heading-title">Sach Lap Trinh</h2>
+							<h2 class="mu-heading-title">Tong Hop Sach Lap Trinh Java</h2>
 							<span class="mu-header-dot"></span>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
 						</div>
@@ -125,14 +125,17 @@
 						<!-- Start Book Overview Content -->
 						<div class="mu-book-overview-content">
 							<div class="row">
-
-								<!-- Java Book Overview Single Content -->
-								<div class="col-md-3 col-sm-6">
-									<div class="mu-book-overview-single">
-										<img style="text-align: center;" src='{{ "/images/books/java.png" | prepend: site.baseurl }}' >
-										<h4>Java</h4>
+								{% for post in site.categories.ebook-java  %}
+								{% if post.tags contains 'java' %}
+									<!-- Java Book Overview Single Content -->
+									<div class="col-md-3 col-sm-6">
+										<div class="mu-book-overview-single">
+											<img style="text-align: center;" src='{{ "/images/books/java.png" | prepend: site.baseurl }}' >
+											<h4><a href="{{ post.link | prepend: site.baseurl }}">Download</a></h4>
+										</div>
 									</div>
-								</div>
+								{% endif %}
+								{% endfor %}
 							</div>
 						</div>
 						<!-- End Book Overview Content -->
