@@ -466,6 +466,13 @@ button:focus {
 	width: 100%;
 }
 
+#mu-video-overview {
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
 .mu-book-overview-area {
 	display: inline;
 	float: left;
