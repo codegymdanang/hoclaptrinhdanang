@@ -37,70 +37,11 @@
 
 
 <!-- Start Header -->
-<header id="mu-header" class="" role="banner">
-	<div class="container">
-		<nav class="navbar navbar-default mu-navbar">
-			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-
-					<!-- Text Logo -->
-					<a class="navbar-brand" href="index.html"><i class="fa fa-book" aria-hidden="true"></i> Kindle</a>
-
-					<!-- Image Logo -->
-					<!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></a> -->
-
-
-				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav mu-menu navbar-right">
-						<li><a href="#">HOME</a></li>
-						<li><a href="#mu-book-overview">OVERVIEW</a></li>
-						<li><a href="#mu-author">AUTHOR</a></li>
-						<li><a href="#mu-pricing">PRICE</a></li>
-						<li><a href="#mu-testimonials">TESTIMONIALS</a></li>
-						<li><a href="#mu-contact">CONTACT</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
-	</div>
-</header>
+{% include header.html %}
 <!-- End Header -->
 
 <!-- Start Featured Slider -->
-
-<section id="mu-hero">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-6 col-sm-6 col-sm-push-6">
-				<div class="mu-hero-right">
-					<img src="assets/images/ebook.png" alt="Ebook img">
-				</div>
-			</div>
-
-			<div class="col-md-6 col-sm-6 col-sm-pull-6">
-				<div class="mu-hero-left">
-					<h1>Perfect Landing Page Template to Present Your eBook</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam saepe, recusandae quidem nulla! Eveniet explicabo perferendis aut, ab quos omnis labore laboriosam quisquam hic deserunt ipsum maxime aspernatur velit impedit.</p>
-					<a href="#" class="mu-primary-btn">Download Now!</a>
-					<span>*Avaliable in PDF, ePUB, Mobi & Kindle.</span>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
+{% include feature_slider.html %}
 <!-- Start Featured Slider -->
 
 <!-- Start main content -->
@@ -578,20 +519,7 @@
 
 
 <!-- Start footer -->
-<footer id="mu-footer" role="contentinfo">
-	<div class="container">
-		<div class="mu-footer-area">
-			<div class="mu-social-media">
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-google-plus"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-			</div>
-			<p class="mu-copyright">&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
-		</div>
-	</div>
-
-</footer>
+{% include footer.html %}
 <!-- End footer -->
 
 <!-- jQuery library -->
