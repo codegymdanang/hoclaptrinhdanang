@@ -1,6 +1,6 @@
 ---
 layout: ebooks-java
-title: Java Effective 1 
+title: Exploring Java 9 
 category: ebook-java
 tags: [java]
 link: /downloads/pdf/java/Exploring Java 9.pdf 
