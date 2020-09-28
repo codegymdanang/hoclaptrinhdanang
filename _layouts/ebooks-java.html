@@ -132,14 +132,16 @@
 									</div>
 
 									<div class="single_post post_1">
-                                		<div class="single_post_img">
-                                    		<img src="img/post/post_18.png" alt="">
+		                                <div class="single_post_img">
+		                                    <img src="'{{ post.image | prepend: site.baseurl }}'" alt="">
+		                                </div>
+		                                <div class="single_post_text text-center">
+		                                    <a href="category.html"><h5> Fashion / Life style</h5></a> 
+		                                    <a href="single-blog.html"><h2>Your life is a product your
+		                                            right decisions</h2></a> 
+		                                    <p>Posted on April 15, 2019</p>
                                 		</div>
-                                		<div class="single_post_text text-center">
-                                    		<a href="category.html"><h5> Fashion / Life style</h5></a> 
-                                    		<a href="single-blog.html"><h2>Your life is a product your right decisions</h2></a> 
-                                    		<p>Posted on April 15, 2019</p>
-                                	</div>
+                           			</div>
                             </div>
 
 								{% endif %}
