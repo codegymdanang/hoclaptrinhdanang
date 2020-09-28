@@ -1,11 +1,11 @@
 ---
 layout: ebooks-java
-title: Exploring Java 9 
+title: Java Concurrency in Practice 
 category: ebook-java
 tags: [java]
-link: /downloads/pdf/java/Exploring Java 9.pdf 
-image: /images/thumbs/java/Exploring Java 9.png
-description : Exploring Java 9 
+link: /downloads/pdf/java/Java Concurrency in Practice.pdf 
+image: /images/thumbs/java/Java Concurrency in Practice.png
+description : Java Concurrency in Practice 
 ---
 
 
