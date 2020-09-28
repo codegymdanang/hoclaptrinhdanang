@@ -35,79 +35,7 @@
 
 <body>
 
-
-<!-- Start Header -->
-{% include header.html %}
-<!-- End Header -->
-
-<!-- Start Featured Slider -->
-{% include feature_slider.html %}
-<!-- Start Featured Slider -->
-
-<!-- Start main content -->
-
 <main role="main">
-
-	<!-- Start Counter -->
-	<section id="mu-counter">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="mu-counter-area">
-
-						<div class="mu-counter-block">
-							<div class="row">
-
-								<!-- Start Single Counter -->
-								<div class="col-md-3 col-sm-6">
-									<div class="mu-single-counter">
-										<i class="fa fa-files-o" aria-hidden="true"></i>
-										<div class="counter-value" data-count="650">0</div>
-										<h5 class="mu-counter-name">Total Pages</h5>
-									</div>
-								</div>
-								<!-- / Single Counter -->
-
-								<!-- Start Single Counter -->
-								<div class="col-md-3 col-sm-6">
-									<div class="mu-single-counter">
-										<i class="fa fa-file-text-o" aria-hidden="true"></i>
-										<div class="counter-value" data-count="422">0</div>
-										<h5 class="mu-counter-name">Chapters</h5>
-									</div>
-								</div>
-								<!-- / Single Counter -->
-
-								<!-- Start Single Counter -->
-								<div class="col-md-3 col-sm-6">
-									<div class="mu-single-counter">
-										<i class="fa fa-users" aria-hidden="true"></i>
-										<div class="counter-value" data-count="1055">0</div>
-										<h5 class="mu-counter-name">Active Readers</h5>
-									</div>
-								</div>
-								<!-- / Single Counter -->
-
-								<!-- Start Single Counter -->
-								<div class="col-md-3 col-sm-6">
-									<div class="mu-single-counter">
-										<i class="fa fa-trophy" aria-hidden="true"></i>
-										<div class="counter-value" data-count="03">0</div>
-										<h5 class="mu-counter-name">Got Awards</h5>
-									</div>
-								</div>
-								<!-- / Single Counter -->
-
-							</div>
-						</div>
-
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Counter -->
 
 	<!-- Start Book Overview -->
 	<section id="mu-book-overview">
@@ -117,7 +45,7 @@
 					<div class="mu-book-overview-area">
 
 						<div class="mu-heading-area">
-							<h2 class="mu-heading-title">Tong Hop Sach Lap Trinh Java</h2>
+							<h2 class="mu-heading-title">Tổng hợp sách về Java</h2>
 							<span class="mu-header-dot"></span>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
 						</div>
@@ -128,8 +56,8 @@
 								{% for post in site.categories.ebook-java  %}
 								{% if post.tags contains 'java' %}
 									<!-- Java Book Overview Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
+									<div class="col-md-3 col-sm-6 ">
+										<div class="mu-book-overview-single homecontent">
 											<img style="text-align: center;" src='{{ post.image | prepend: site.baseurl }}' >
 											<h4> {{ post.title }}</h4>
 											<p>{{ post.description }}</p>
