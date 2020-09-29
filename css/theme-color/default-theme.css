@@ -46,13 +46,13 @@ Author URI : http://www.markups.io/
 .mu-author-social a,
 .mu-pricing-content .mu-popular-price-tag,
 #mu-video-review:before  {
-	background-color: #ff871c;
+	background-color: #4ba89c;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-testimonial-slide .slick-dots li button:hover,
 .mu-testimonial-slide .slick-dots li button:focus,
 .mu-testimonial-slide .slick-dots li.slick-active button{
-	border: 1px solid #ff871c;    
+	border: 1px solid #4ba89c;
 } 
 
