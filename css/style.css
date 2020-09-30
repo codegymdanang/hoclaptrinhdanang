@@ -351,10 +351,8 @@ button:focus {
 	float: left;
 	padding: 160px 0 90px;
 	width: 100%;
+	height: auto;
 	background-image: url(/images/banner.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-
 }
 
 @media (min-width: 480px) {
