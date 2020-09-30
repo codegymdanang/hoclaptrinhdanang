@@ -31,21 +31,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
 	<!-- Lato for Title -->
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<script>
-		function play() {
-			var audio = document.getElementById('audio');
-			if (audio.paused) {
-				audio.play();
-				$('#play').removeClass('glyphicon-play-circle')
-				$('#play').addClass('glyphicon-pause')
-			}else{
-				audio.pause();
-				audio.currentTime = 0
-				$('#play').addClass('glyphicon-play-circle')
-				$('#play').removeClass('glyphicon-pause')
-			}
-		}
-	</script>
+
 
 </head>
 
@@ -142,8 +128,18 @@
 										<div class="mu-book-overview-single bookcontent">
 											<img style="padding:25px; max-width: 100%;max-height: 100%;display: block;" src='{{ post.image | prepend: site.baseurl }}' >
 											<h4> {{ post.title }} </h4>
-											<audio src="{{ post.link | prepend: site.baseurl }}" id="audio"></audio>
-											<i class="glyphicon glyphicon-play-circle b-play" id="play" onclick="play()"></i>
+
+											<figure>
+												<figcaption>Listen to the T-Rex:</figcaption>
+												<audio
+														controls
+														src="{{ post.link | prepend: site.baseurl }}">
+													Your browser does not support the
+													<code>audio</code> element.
+												</audio>
+											</figure>
+
+
 
 										</div>
 									</div>
