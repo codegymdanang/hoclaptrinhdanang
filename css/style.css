@@ -1383,3 +1383,385 @@ button:focus {
   height: 100%;
   border: 0;
 }
+
+/**************menu part start*****************/
+/* line 3, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu .navbar-brand {
+	padding-top: 0rem;
+}
+
+/* line 7, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu .navbar {
+	padding: 0;
+}
+
+/* line 11, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu .main-menu-item {
+	text-align: center;
+}
+
+/* line 15, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu .main-menu-item ul li a {
+	color: #2a2a2a;
+	font-size: 15px;
+	font-family: "Cardo", serif;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* line 15, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu .main-menu-item ul li a {
+		padding: 8px 16px;
+	}
+}
+
+/* line 28, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu .navbar-light .navbar-nav .nav-link {
+	color: #2a2a2a;
+	padding: 41px 30px;
+	line-height: 18px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* line 28, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu .navbar-light .navbar-nav .nav-link {
+		padding: 30px 20px;
+	}
+}
+
+/* line 39, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu .header_social_icon ul li {
+	display: inline-block;
+}
+
+/* line 42, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu .header_social_icon ul li a {
+	color: #2a2a2a;
+	padding-right: 15px;
+	font-size: 13px;
+}
+
+/* line 51, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu #search_input_box {
+	background-color: #fff;
+	text-align: center;
+	padding: 5px 20px;
+	position: fixed;
+	width: 100%;
+}
+
+/* line 58, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu #search_input_box .form-control {
+	background: transparent;
+	border: 0;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 0;
+}
+
+/* line 66, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu #search_input_box .form-control:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+/* line 14, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_mixins.scss */
+.main_menu #search_input_box input.placeholder {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+/* line 17, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_mixins.scss */
+.main_menu #search_input_box input:-moz-placeholder {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+/* line 20, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_mixins.scss */
+.main_menu #search_input_box input::-moz-placeholder {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+/* line 23, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_mixins.scss */
+.main_menu #search_input_box input::-webkit-input-placeholder {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+/* line 79, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu #search_input_box .btn {
+	width: 0;
+	height: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* line 86, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu #search_input_box .lnr-cross {
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 10px 3px;
+}
+
+/* line 94, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu #wrap {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	position: relative;
+}
+
+/* line 100, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu #wrap span {
+	margin-right: 19px;
+	padding-right: 25px;
+	border-right: 2px solid #a0a5a7;
+}
+
+@media (max-width: 576px) {
+	/* line 100, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu #wrap span {
+		margin-right: 0px;
+		padding-right: 0px;
+		border-right: 0px solid #a0a5a7;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/* line 100, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu #wrap span {
+		margin-right: 0px;
+		padding-right: 0px;
+		border-right: 0px solid #a0a5a7;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* line 100, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu #wrap span {
+		margin-right: 0px;
+		padding-right: 0px;
+		border-right: 0px solid #a0a5a7;
+	}
+}
+
+/* line 122, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu input[type="text"] {
+	height: 40px;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: 100;
+	border: none;
+	outline: none;
+	color: #555;
+	padding: 3px;
+	padding-left: 15px;
+	padding-right: 60px;
+	width: 0px;
+	position: absolute;
+	top: -10px;
+	right: 40px;
+	background: none;
+	z-index: 3;
+	transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+	cursor: pointer;
+}
+
+@media (max-width: 576px) {
+	/* line 122, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu input[type="text"] {
+		right: 0px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/* line 122, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu input[type="text"] {
+		right: 0px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* line 122, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu input[type="text"] {
+		right: 0px;
+	}
+}
+
+/* line 156, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu input[type="text"]:focus:hover {
+	border: 2px solid #ffe4e4;
+}
+
+/* line 160, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu input[type="text"]:focus {
+	width: 300px;
+	z-index: 1;
+	cursor: text;
+	border: 2px solid #ffe4e4;
+	background-color: #fafafa;
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px;
+	background-image: url(../img/icon/long-arrow-pointing-to-the-right.svg);
+	background-position: 96% 47%;
+	background-repeat: no-repeat;
+	background-size: 16px 17px;
+}
+
+/* line 175, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.main_menu input[type="submit"]:hover {
+	opacity: 0.8;
+}
+
+/* line 180, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.home_menu {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+/* line 188, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.menu_fixed {
+	position: fixed;
+	z-index: 9999 !important;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+	top: 0;
+}
+
+/* line 196, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+.menu_fixed span {
+	color: #000 !important;
+}
+
+@media (max-width: 991px) {
+	/* line 202, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		padding: 0px;
+	}
+	/* line 206, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu .navbar {
+		padding: 20px 0;
+	}
+	/* line 209, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.navbar-collapse {
+		z-index: 9999 !important;
+		position: absolute;
+		left: 0;
+		top: 71px;
+		width: 100%;
+		background-color: #fff;
+		text-align: center !important;
+	}
+	/* line 220, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu .main-menu-item {
+		text-align: left !important;
+	}
+	/* line 223, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu .main-menu-item .nav-item {
+		padding: 5px 15px !important;
+	}
+	/* line 226, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.main_menu .main-menu-item .nav-item a {
+		padding: 8px 15px !important;
+	}
+	/* line 232, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.dropdown .dropdown-menu {
+		transform: scale(1, 0);
+		display: none !important;
+	}
+	/* line 237, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.dropdown:hover .dropdown-menu {
+		transform: scale(1);
+		display: block !important;
+	}
+	/* line 244, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_menu.scss */
+	.dropdown .dropdown-menu .show {
+		display: block !important;
+	}
+}
+
+#logo {
+	float: left;
+	font-size: 40px;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* end top menu bar */
