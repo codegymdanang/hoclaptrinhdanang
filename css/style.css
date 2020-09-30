@@ -473,6 +473,13 @@ button:focus {
 	width: 100%;
 }
 
+#mu-video-overview {
+	background-color: #ffffff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
 
 .mu-book-overview-area {
 	display: inline;
@@ -1035,6 +1042,7 @@ button:focus {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	border-radius: 50%;
+	color : white;
 }
 
 .mu-social-media a:hover,
@@ -1043,6 +1051,7 @@ button:focus {
 }
 
 .mu-copyright {
+	color: white;
 	margin-top: 10px;
 	display: inline-block;
 }
