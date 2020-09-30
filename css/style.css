@@ -351,6 +351,8 @@ button:focus {
 	float: left;
 	padding: 160px 0 90px;
 	width: 100%;
+	background-image: url(/images/video-review-bg.jpeg);
+
 }
 
 .mu-hero-left{
