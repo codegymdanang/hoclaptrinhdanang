@@ -22,89 +22,41 @@
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand" href="#">Navbar</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
 
-				<div class="collapse navbar-collapse main-menu-item justify-content-center"
-						 id="navbarSupportedContent">
-						<ul class="navbar-nav">
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarJava" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Java
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-java" | prepend: site.baseurl }}'>Java </a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-spring-core" | prepend: site.baseurl }}'>Spring Core </a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-spring-web" | prepend: site.baseurl }}'>Spring Web</a>
-								</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarFE" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									FrontEnd
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-html" | prepend: site.baseurl }}'>HTML</a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-css" | prepend: site.baseurl }}'>CSS</a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-bootstrap" | prepend: site.baseurl }}'>Bootstrap</a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-javascript" | prepend: site.baseurl }}'>JavaScript</a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-typescript" | prepend: site.baseurl }}'>TypeScript</a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-angular" | prepend: site.baseurl }}'>Angular</a>
-								</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarCraftmanship" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Craftmanship
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-java-chuyen-sau" | prepend: site.baseurl }}'>The Best Coder</a>
-									<a class="dropdown-item" href='{{"/ky-thuat-lap-trinh-java-refactoring" | prepend: site.baseurl }}'>Refactoring</a>
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-design-pattern" | prepend: site.baseurl }}'>Design Pattern</a>
-
-								</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDB" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Database
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href='{{"/co-so-du-lieu-mysql" | prepend: site.baseurl }}'>My SQL</a>
-									<a class="dropdown-item" href='{{"/co-so-du-lieu-none-relational-database" | prepend: site.baseurl }}'>Mongo DB</a>
-								</div>
-							</li>
-
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDevops" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Devops
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href='{{"/hoc-lap-trinh-docker" | prepend: site.baseurl }}'>Docker </a>
-									<a class="dropdown-item" href='{{"/ky-thuat-deploy" | prepend: site.baseurl }}'> Monitor </a>
-									<a class="dropdown-item" href='{{"/ky-thuat-lap-trinh-ci-cd" | prepend: site.baseurl }}'>CI/CD </a>
-								</div>
-							</li>
-							<!--<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarTesting" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Testing
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="single-blog.html">Manual Testing</a>
-									<a class="dropdown-item" href="elements.html">Automation Testing</a>
-									<a class="dropdown-item" href="elements.html">Agile Testing</a>
-								</div>
-							</li>-->
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Nghề Devs
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href='{{"/tam-su-nghe-lap-trinh-vien" | prepend: site.baseurl }}'>Tâm Sự Dev </a>
-									<a class="dropdown-item" href='{{"/ky-nang-hoc-lap-trinh" | prepend: site.baseurl }}'>Softskills</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-
-
-
-
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Link</a>
+				      </li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Something else here</a>
+				        </div>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#">Disabled</a>
+				      </li>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				    </form>
+				  </div>
+				</nav>
 
 				<!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
