@@ -32,10 +32,19 @@
 	<!-- Lato for Title -->
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<script>
-		function playAudio(url) {
-			new Audio(url).play();
+		function play() {
+			var audio = document.getElementById('audio');
+			if (audio.paused) {
+				audio.play();
+				$('#play').removeClass('glyphicon-play-circle')
+				$('#play').addClass('glyphicon-pause')
+			}else{
+				audio.pause();
+				audio.currentTime = 0
+				$('#play').addClass('glyphicon-play-circle')
+				$('#play').removeClass('glyphicon-pause')
+			}
 		}
-
 	</script>
 
 </head>
@@ -132,9 +141,8 @@
 									<div class="col-md-3 col-sm-6 ">
 										<div class="mu-book-overview-single bookcontent">
 											<img style="padding:25px; max-width: 100%;max-height: 100%;display: block;" src='{{ post.image | prepend: site.baseurl }}' >
-											<i class="fa fa-download" aria-hidden="true" onclick="playAudio('{{ post.link | prepend: site.baseurl }}')"> 500 </i>
-
-											<i class="fa fa-eye" aria-hidden="true"> 110 </i>
+											<audio src="{{ post.link | prepend: site.baseurl }}" id="audio"></audio>
+											<i class="glyphicon glyphicon-play-circle b-play" id="play" onclick="play()"></i>
 										</div>
 									</div>
 								{% endif %}
