@@ -48,7 +48,7 @@ ul {
 }
 
 ul li {
-	list-style: disc;
+	list-style: none;
 	font-size: 17px;
 	line-height: 1.59;
 }
