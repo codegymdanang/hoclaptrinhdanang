@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="tải tài liệu lập trình, học lập trình, hướng dẫn học lập , tự học lập trình ">
+	<meta name="keywords" content="tải tài liệu lập trình, tự học lập trình ">
+
+	<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
+	<title>{{site.blog_title}}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+	<link rel="icon" href='{{ "/images/favicon.png" | prepend: site.baseurl }}' >
+
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href='{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}' >
+	<!-- Slick slider -->
+	<link rel="stylesheet" href='{{ "/css/slick.css" | prepend: site.baseurl }}' >
+	<!-- Theme color -->
+	<link rel="stylesheet" href='{{ "/css/theme-color/default-theme.css" | prepend: site.baseurl }}' >
+	<!-- Main Style -->
+	<link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}' >
+
+	<!-- Fonts -->
+
+	<!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<!-- Lato for Title -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Start Header -->
+{% include header.html %}
+<!-- End Header -->
+<!-- Start Featured Slider -->
+{% include feature_slider.html %}
+<!-- Start Featured Slider -->
+
+<!-- End main content -->
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-2 col-sm-2" style="display: table;font-size: medium;padding: 0px;line-height: 40px;">
+			<div>
+				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Java </span>
+			</div>
+			<div>
+				{% assign sorted = site.categories.laptrinhjava | reverse %}
+				{% for post in sorted  %}
+				{% if post.tags contains 'java core' %}
+				<div >
+					<ul>
+						<li style="list-style-type: asterisks;">
+							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
+						</li>
+					</ul>
+				</div>
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="col-lg-7 col-sm-7" style="border:5px solid #fde3db">
+			<div id='page'>
+				<div style="width:100%;text-align:center;padding-top: 30px"> <img src="{{ page.featureImage }}"></div>
+				<h1 style="margin-top: 0px;padding-top: 0px;font-size: 50px;color:red">{{page.title}}</h1>
+				<div class="post-meta">
+					<div class="post-meta-content" style="text-align: right">
+								<span class="post-auhor-date">
+									<span>
+										<a class="post-author">nguyen.le</a>
+									</span>,
+									<a  class="post-date">
+										{{ post.date | date: "%B %d, %Y"}}
+									</a>
+								</span>
+								<span class="post-readtime">
+									<i class="icon icon-clock"></i> 15 min <span>read</span> </span>
+						</span>
+					</div>
+				</div>
+
+				<div id="contentPost">
+					{% if content == "" %}
+					<div> Khoá học lập trình java </div>
+					<p>
+						Bạn đang bắt đầu với việc học lập trình thì nên chọn Java là ngôn ngữ mà mình nên bắt đầu. Trong các bài blog về Java anh đã chuẩn bị video, các demo và giải nghĩa các khái niệm khó về lập trình java. Hy vọng các bài blog của anh sẽ giúp mọi người những bước đi đầu tiên trong học lập trình.
+					</p>
+
+					<p>
+						Các em hãy click vào các bài học bên tay trái. Anh đã sắp xếp các chủ đề từ cơ bản đến nâng cao.
+					</p>
+					{% endif %}
+					{{content}}
+
+
+					<h3>Mọi người hãy subcribe kênh youtube dưới đây nhé. Videos về các kỹ năng mềm và lập trình sẽ được cập nhật hằng tuần</h3>
+					<div class="g-ytsubscribe" data-channelid="UC8VjQlFZWLrB-Nq7pQ0zGgA" data-layout="default" data-count="default"></div>
+				</div>
+
+				<div>
+					<hr style="border: 1px solid red" />
+					<h4>Comments</h4>
+					<div class="fb-comments" data-href="https://levunguyen.com{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-sm-3">
+			<div>
+				<div class="single_post post_1" style="margin-top : 10px" >
+					<div style="width: 300px;">
+						<a href="https://danang.codegym.vn">
+							<img src='{{"/images/banner/dcc.jpg"  | prepend: site.baseurl }}' style="max-width: 100%"> <br>
+						</a>
+					</div>
+					<div style="width: 300px;">
+						<a href="https://danang.codegym.vn/khoa-hoc-accelerator-java/">
+							<img src='{{"/images/banner/bannerlopdem.jpg"  | prepend: site.baseurl }}' style="max-width: 100%">
+						</a>
+					</div>
+
+					<h6> <span style="color:#fc4600">    <span> </span></span></h6>
+					<div class="fb-group" data-href="https://www.facebook.com/groups/codegymdanang" data-width="300" data-show-social-context="false" data-show-metadata="true">
+					</div>
+					<h6> <span style="color:#fc4600">  <span> </span></span></h6>
+					<div class="fb-group" data-href="https://www.facebook.com/groups/danangagiledeveloper/" data-width="300" data-show-social-context="true" data-show-metadata="true"></div>
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+</div>
+<!-- Start footer -->
+{% include footer.html %}
+<!-- End footer -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Bootstrap -->
+<script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}'> </script>
+<!-- Slick slider -->
+<script src='{{"/js/slick.min.js"  | prepend: site.baseurl }}'> </script>
+<!-- Counter js -->
+<script src='{{"/js/counter.js"  | prepend: site.baseurl }}'> </script>
+<!-- Ajax contact form  -->
+<script src='{{"/js/app.js"  | prepend: site.baseurl }}'> </script>
+
+
+<!-- Custom js -->
+<script src='{{"/js/custom.js"  | prepend: site.baseurl }}'> </script>
+
+</body>
+</html>
