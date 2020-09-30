@@ -262,7 +262,7 @@ button:focus {
 }
 
 .navbar-default .navbar-brand {
-	color: #fff;
+	color: #49a597;
 	font-size: 35px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -271,7 +271,7 @@ button:focus {
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: black;
+	color: white;
 }
 
 .navbar-brand img{
@@ -1135,7 +1135,7 @@ button:focus {
 	}
 
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		background-color: rgba(0,0,0,0.8);
+		background-color: #49a597;
 		text-align: center;
 	}
 
