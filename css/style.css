@@ -70,7 +70,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	margin-top: 0;
 }
@@ -264,7 +264,7 @@ button:focus {
 .navbar-default .navbar-brand {
 	color: #fff;
 	font-size: 35px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	margin-top: -11px;
 }
