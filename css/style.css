@@ -460,14 +460,14 @@ button:focus {
 
 
 #mu-book-overview {
-	background-color: #f8f8f8;
+	background-color: #ffffff;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
 #mu-softskill-overview {
-	background-color: #ffffff;
+	background-color: #4ba89c;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1003,6 +1003,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	background-color: #4ba89c 
 }
 
 .mu-footer-area{
@@ -1352,8 +1353,8 @@ button:focus {
 	margin: 5px;
 	font-size: 14px;
 	padding: 15px;
-	width: 330px;
-	height: 450px;
+	width: 220px;
+	height: 220px;
 	border-radius: 2px;
 	box-shadow: -2px 10px 22px -16px rgba(0,0,0,.75);
 	text-align: center;
