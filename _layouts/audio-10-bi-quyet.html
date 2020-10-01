@@ -50,67 +50,7 @@
 {% include feature_slider.html %}
 <!-- Start Featured Slider -->
 <main role="main">
-	<!-- Start Counter -->
-				<section id="mu-counter">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="mu-counter-area">
-
-									<div class="mu-counter-block">
-										<div class="row">
-
-											<!-- Start Single Counter -->
-											<div class="col-md-3 col-sm-6">
-												<div class="mu-single-counter">
-													<i class="fa fa-files-o" aria-hidden="true"></i>
-													<div class="counter-value" data-count="10">0</div>
-													<h5 class="mu-counter-name">Tổng số bài nghe</h5>
-												</div>
-											</div>
-											<!-- / Single Counter -->
-
-											<!-- Start Single Counter -->
-											<div class="col-md-3 col-sm-6">
-												<div class="mu-single-counter">
-													<i class="fa fa-file-text-o" aria-hidden="true"></i>
-													<div class="counter-value" data-count="422">0</div>
-													<h5 class="mu-counter-name">Chapters</h5>
-												</div>
-											</div>
-											<!-- / Single Counter -->
-
-											<!-- Start Single Counter -->
-											<div class="col-md-3 col-sm-6">
-												<div class="mu-single-counter">
-													<i class="fa fa-users" aria-hidden="true"></i>
-													<div class="counter-value" data-count="1055">0</div>
-													<h5 class="mu-counter-name">Active Readers</h5>
-												</div>
-											</div>
-											<!-- / Single Counter -->
-
-											<!-- Start Single Counter -->
-											<div class="col-md-3 col-sm-6">
-												<div class="mu-single-counter">
-													<i class="fa fa-trophy" aria-hidden="true"></i>
-													<div class="counter-value" data-count="03">0</div>
-													<h5 class="mu-counter-name">Got Awards</h5>
-												</div>
-											</div>
-											<!-- / Single Counter -->
-
-										</div>
-									</div>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- End Counter -->
-
+	
 	<!-- Start Book Overview -->
 	<section id="mu-book-overview">
 		<div class="container">
@@ -126,33 +66,21 @@
 
 						<!-- Start Book Overview Content -->
 						<div class="mu-book-overview-content">
-							<div class="row">
+							<audio id="audio" preload="auto" tabindex="0" controls="" >
+						  		Your Fallback goes here
+							</audio>
+							<ul id="playlist">
 								{% assign sorted = site.categories.audio | reverse %}
-								{% for post in  sorted %}
-								{% if post.tags contains '10bikip' %}
-									<!-- Java Book Overview Single Content -->
-									<div class="col-md-4 col-sm-6 ">
-										<div class="mu-book-overview-single audiobookcontent">
-											<img style="padding:25px; max-width: 100%;max-height: 100%;display: block;" src='{{ post.image | prepend: site.baseurl }}' >
-											<h4> {{ post.title }} </h4>
-
-											<figure>
-												<figcaption>Listen to the Radio:</figcaption>
-												<audio
-														controls
-														src="{{ post.link | prepend: site.baseurl }}">
-													Your browser does not support the
-													<code>audio</code> element.
-												</audio>
-											</figure>
-
-
-
-										</div>
-									</div>
-								{% endif %}
+									{% for post in  sorted %}
+									{% if post.tags contains '10bikip' %}
+						        <li class="active">
+						            <a href="{{ post.link | prepend: site.baseurl }}">
+						                {{ post.title }}
+						            </a>
+						        </li>
+						        {% endif %}
 								{% endfor %}
-							</div>
+		    				</ul>
 						</div>
 						<!-- End Book Overview Content -->
 
@@ -166,21 +94,7 @@
 <!-- Start Book Overview -->
 	<section id="mu-audio-overview">
 
-			<audio id="audio" preload="auto" tabindex="0" controls="" >
-		  		Your Fallback goes here
-			</audio>
-			<ul id="playlist">
-				{% assign sorted = site.categories.audio | reverse %}
-					{% for post in  sorted %}
-					{% if post.tags contains '10bikip' %}
-		        <li class="active">
-		            <a href="{{ post.link | prepend: site.baseurl }}">
-		                {{ post.title }}
-		            </a>
-		        </li>
-		        {% endif %}
-				{% endfor %}
-		    </ul>
+			
 	</section>
 
 </main>
@@ -199,11 +113,6 @@
 <script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}'> </script>
 <!-- Slick slider -->
 <script src='{{"/js/slick.min.js"  | prepend: site.baseurl }}'> </script>
-<!-- Counter js -->
-<script src='{{"/js/counter.js"  | prepend: site.baseurl }}'> </script>
-<!-- Ajax contact form  -->
-<script src='{{"/js/app.js"  | prepend: site.baseurl }}'> </script>
-
 
 <!-- Custom js -->
 <script src='{{"/js/custom.js"  | prepend: site.baseurl }}'> </script>
