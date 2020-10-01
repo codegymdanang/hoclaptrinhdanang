@@ -166,33 +166,23 @@
 <!-- Start Book Overview -->
 	<section id="mu-audio-overview">
 
-	<audio id="audio" preload="auto" tabindex="0" controls="" >
-  		<source src="http://www.archive.org/download/bolero_69/Bolero.mp3">
-  		Your Fallback goes here
-	</audio>
-	<ul id="playlist">
-        <li class="active">
-            <a href="http://www.archive.org/download/bolero_69/Bolero.mp3">
-                Ravel Bolero
-            </a>
-        </li>
-        <li>
-            <a href="http://www.archive.org/download/MoonlightSonata_755/Beethoven-MoonlightSonata.mp3">
-                Moonlight Sonata - Beethoven
-            </a>
-        </li>
-        <li>
-            <a href="http://www.archive.org/download/CanonInD_261/CanoninD.mp3">
-                Canon in D Pachabel
-            </a>
-        </li>
-        <li>
-            <a href="http://www.archive.org/download/PatrikbkarlChamberSymph/PatrikbkarlChamberSymph_vbr_mp3.zip">
-                patrikbkarl chamber symph
-            </a>
-        </li>
-    </ul>
-</section>
+			<audio id="audio" preload="auto" tabindex="0" controls="" >
+		  		<source src="http://www.archive.org/download/bolero_69/Bolero.mp3">
+		  		Your Fallback goes here
+			</audio>
+			<ul id="playlist">
+				{% assign sorted = site.categories.audio | reverse %}
+					{% for post in  sorted %}
+					{% if post.tags contains '10bikip' %}
+		        <li class="active">
+		            <a href="{{ post.link | prepend: site.baseurl }}">
+		                {{ post.title }}
+		            </a>
+		        </li>
+		        {% endif %}
+				{% endfor %}
+		    </ul>
+	</section>
 
 </main>
 
