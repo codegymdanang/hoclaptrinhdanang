@@ -3,8 +3,8 @@ layout: ebooks-java
 title: Java Performance Companion 
 category: ebook-java
 tags: [spring]
-link: /downloads/pdf/spring/Spring.Batch_.in_.Action.Oct_.2011.pdf 
-image: /images/thumbs/spring/Spring.Batch_.in_.Action.Oct_.2011-min.png
+link: /downloads/pdf/spring/mvnref-pdf.pdf 
+image: /images/thumbs/spring/mvnref-pdf-min.png
 description : Java Performance Companion 
 ---
 
