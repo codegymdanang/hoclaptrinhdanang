@@ -1,6 +1,6 @@
 ---
 layout: ebooks-java
-title: 02. Bí quyết thứ nhất. Phần 1_ Hãy quan tâm đến người nghe 
+title: 03.Bí quyết thứ 2_ Hãy nói với tất cả cảm hứng 
 category: audio
 tags: [10bikip]
 link: /audio/10biquyetthanhcong/03.Bí quyết thứ 2_ Hãy nói với tất cả cảm hứng.mp3 

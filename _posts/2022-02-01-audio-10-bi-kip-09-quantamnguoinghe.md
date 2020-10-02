@@ -1,6 +1,6 @@
 ---
 layout: ebooks-java
-title: 02. Bí quyết thứ nhất. Phần 1_ Hãy quan tâm đến người nghe 
+title: 09. Bí quyết thứ 8_ Kìm chế cảm xúc thể hiện 
 category: audio
 tags: [10bikip]
 link: /audio/10biquyetthanhcong/09. Bí quyết thứ 8_ Kìm chế cảm xúc thể hiện.mp3 

@@ -1,6 +1,6 @@
 ---
 layout: ebooks-java
-title: 02. Bí quyết thứ nhất. Phần 1_ Hãy quan tâm đến người nghe 
+title: 11. Bí quyết thứ 10_ Hãy rèn luyện mình mới mở mỗi ngày 
 category: audio
 tags: [10bikip]
 link: /audio/10biquyetthanhcong/11. Bí quyết thứ 10_ Hãy rèn luyện mình mới mở mỗi ngày.mp3 

@@ -1,6 +1,6 @@
 ---
 layout: ebooks-java
-title: 02. Bí quyết thứ nhất. Phần 1_ Hãy quan tâm đến người nghe 
+title: 07. Bí quyết thứ 6_ Trình bày xúc tích, cô đọng
 category: audio
 tags: [10bikip]
 link: /audio/10biquyetthanhcong/07. Bí quyết thứ 6_ Trình bày xúc tích, cô đọng.mp3 
