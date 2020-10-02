@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-dac-nhan-tam
 title: 01. Lời giới thiệu 
 category: audio
 tags: [dacnhantam]
