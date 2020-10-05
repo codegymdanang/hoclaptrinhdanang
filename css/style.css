@@ -495,7 +495,7 @@ button:focus {
 	float: left;
 	text-align: center;
 	width: 100%;
-	background: #4ba89c;
+	background: #fff;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
 }
@@ -505,7 +505,7 @@ button:focus {
 	float: left;
 	text-align: center;
 	width: 100%;
-	background: #fff;
+	background: #4ba89c;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
 }
