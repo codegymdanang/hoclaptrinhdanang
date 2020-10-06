@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="tải tài liệu lập trình, học lập trình, hướng dẫn học lập , tự học lập trình ">
+	<meta name="keywords" content="tải tài liệu lập trình, tự học lập trình ">
+
+	<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
+	<title>{{site.blog_title}}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+	<link rel="icon" href='{{ "/images/favicon.png" | prepend: site.baseurl }}' >
+
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href='{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}' >
+	<!-- Slick slider -->
+	<link rel="stylesheet" href='{{ "/css/slick.css" | prepend: site.baseurl }}' >
+	<!-- Theme color -->
+	<link rel="stylesheet" href='{{ "/css/theme-color/default-theme.css" | prepend: site.baseurl }}' >
+	<!-- Main Style -->
+	<link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}' >
+
+	<!-- Fonts -->
+
+	<!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<!-- Lato for Title -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+	<script>
+		function download(dataurl, filename) {
+			var a = document.createElement("a");
+			a.href = dataurl;
+			a.setAttribute("download", filename);
+			a.click();
+		}
+	</script>
+
+</head>
+
+<body>
+
+<!-- Start Header -->
+{% include header.html %}
+<!-- End Header -->
+<!-- Start Featured Slider -->
+{% include feature_slider.html %}
+<!-- Start Featured Slider -->
+<main role="main">
+	<!-- Start Counter -->
+				<section id="mu-counter">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="mu-counter-area">
+
+									<div class="mu-counter-block">
+										<div class="row">
+
+											<!-- Start Single Counter -->
+											<div class="col-md-3 col-sm-6">
+												<div class="mu-single-counter">
+													<i class="fa fa-files-o" aria-hidden="true"></i>
+													<div class="counter-value" data-count="650">0</div>
+													<h5 class="mu-counter-name">Total Pages</h5>
+												</div>
+											</div>
+											<!-- / Single Counter -->
+
+											<!-- Start Single Counter -->
+											<div class="col-md-3 col-sm-6">
+												<div class="mu-single-counter">
+													<i class="fa fa-file-text-o" aria-hidden="true"></i>
+													<div class="counter-value" data-count="422">0</div>
+													<h5 class="mu-counter-name">Chapters</h5>
+												</div>
+											</div>
+											<!-- / Single Counter -->
+
+											<!-- Start Single Counter -->
+											<div class="col-md-3 col-sm-6">
+												<div class="mu-single-counter">
+													<i class="fa fa-users" aria-hidden="true"></i>
+													<div class="counter-value" data-count="1055">0</div>
+													<h5 class="mu-counter-name">Active Readers</h5>
+												</div>
+											</div>
+											<!-- / Single Counter -->
+
+											<!-- Start Single Counter -->
+											<div class="col-md-3 col-sm-6">
+												<div class="mu-single-counter">
+													<i class="fa fa-trophy" aria-hidden="true"></i>
+													<div class="counter-value" data-count="03">0</div>
+													<h5 class="mu-counter-name">Got Awards</h5>
+												</div>
+											</div>
+											<!-- / Single Counter -->
+
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Counter -->
+
+	<!-- Start Book Overview -->
+	<section id="mu-book-overview">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mu-book-overview-area">
+
+						<div class="mu-heading-area">
+							<h2 class="mu-heading-title">Python Ebook</h2>
+							<span class="mu-header-dot"></span>
+							<p>Tổng hợp các sách hay về Python</p>
+						</div>
+
+						<!-- Start Book Overview Content -->
+						<div class="mu-book-overview-content">
+							<div class="row">
+								{% for post in site.categories.ebook-backend  %}
+								{% if post.tags contains 'python' %}
+									<!-- Java Book Overview Single Content -->
+									<div class="col-md-3 col-sm-6 ">
+										<div class="mu-book-overview-single javabookcontent">
+											<img style="padding:25px; max-width: 100%;max-height: 100%;display: block;" src='{{ post.image | prepend: site.baseurl }}' >
+
+											<a href="{{ post.link | prepend: site.baseurl }}" target="_blank"><i class="fa fa-eye" aria-hidden="true"> 500 </i></a>
+											<i class="fa fa-download" aria-hidden="true" style="cursor: pointer" onclick="download('{{ post.link | prepend: site.baseurl }}', '{{ post.title }}');"> 110 </i>
+										</div>
+									</div>
+								{% endif %}
+								{% endfor %}
+							</div>
+						</div>
+						<!-- End Book Overview Content -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Book Overview -->
+
+</main>
+
+<!-- End main content -->
+
+
+<!-- Start footer -->
+{% include footer.html %}
+<!-- End footer -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Bootstrap -->
+<script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}'> </script>
+<!-- Slick slider -->
+<script src='{{"/js/slick.min.js"  | prepend: site.baseurl }}'> </script>
+<!-- Counter js -->
+<script src='{{"/js/counter.js"  | prepend: site.baseurl }}'> </script>
+<!-- Ajax contact form  -->
+<script src='{{"/js/app.js"  | prepend: site.baseurl }}'> </script>
+
+
+<!-- Custom js -->
+<script src='{{"/js/custom.js"  | prepend: site.baseurl }}'> </script>
+
+</body>
+</html>
