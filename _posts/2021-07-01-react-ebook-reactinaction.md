@@ -1,5 +1,5 @@
 ---
-layout: ebooks-angular
+layout: ebooks-react
 title: React Native in Action 
 category: frontend
 tags: [react]

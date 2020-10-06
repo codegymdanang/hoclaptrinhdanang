@@ -1,5 +1,5 @@
 ---
-layout: ebooks-angular
+layout: ebooks-vuejs
 title: Angular Pro 
 category: frontend
 tags: [vuejs]

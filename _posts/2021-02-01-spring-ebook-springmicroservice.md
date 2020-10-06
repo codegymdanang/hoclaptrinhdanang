@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: ebooks-spring
 title: Java Performance Companion 
 category: ebook-java
 tags: [spring]
