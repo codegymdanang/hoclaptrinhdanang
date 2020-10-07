@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 09. Bí quyết thứ 8_ Kìm chế cảm xúc thể hiện 
 category: audio
 tags: [10bikip]

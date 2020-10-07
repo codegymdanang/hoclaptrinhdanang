@@ -1,5 +1,5 @@
 ---
-layout: audio-10-bi-quyet
+layout: ebooks-java
 title: 1. Lời giới thiệu 
 category: audio
 tags: [10bikip]

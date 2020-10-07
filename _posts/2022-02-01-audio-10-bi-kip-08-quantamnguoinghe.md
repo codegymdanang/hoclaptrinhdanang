@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 08. Bí quyết thứ 7. Phần 3_ Nói chuyện với phong thái ,cử chỉ linh hoạt và thông minh 
 category: audio
 tags: [10bikip]

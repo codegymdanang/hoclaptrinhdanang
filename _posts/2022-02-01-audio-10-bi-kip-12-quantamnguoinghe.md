@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 12. Hãy tin chắc chắn bạn sẽ làm được 
 category: audio
 tags: [10bikip]

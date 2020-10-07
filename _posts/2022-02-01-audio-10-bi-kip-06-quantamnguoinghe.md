@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 06. Bí quyết thứ 5_ Trình bày mạch lạc, rõ ràng 
 category: audio
 tags: [10bikip]

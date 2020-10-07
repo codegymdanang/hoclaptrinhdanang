@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 10. Bí quyết thứ 9_ Trang phục thanh lịch
 category: audio
 tags: [10bikip]

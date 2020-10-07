@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 02. Bí quyết thứ nhất. Phần 1_ Hãy quan tâm đến người nghe 
 category: audio
 tags: [10bikip]

@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 11. Bí quyết thứ 10_ Hãy rèn luyện mình mới mở mỗi ngày 
 category: audio
 tags: [10bikip]

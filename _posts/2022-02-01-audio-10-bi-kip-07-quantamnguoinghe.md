@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 07. Bí quyết thứ 6_ Trình bày xúc tích, cô đọng
 category: audio
 tags: [10bikip]

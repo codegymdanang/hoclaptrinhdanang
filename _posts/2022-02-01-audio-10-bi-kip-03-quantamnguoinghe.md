@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 03.Bí quyết thứ 2_ Hãy nói với tất cả cảm hứng 
 category: audio
 tags: [10bikip]

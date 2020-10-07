@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 05. Bí quyết thứ 4. Phần 2_ Theo dõi sự thu hút của người nghe 
 category: audio
 tags: [10bikip]

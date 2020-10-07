@@ -1,5 +1,5 @@
 ---
-layout: ebooks-java
+layout: audio-10-bi-quyet
 title: 04. Bí quyết thứ 3_ Hãy chẩn bị thật kỹ lưỡng 
 category: audio
 tags: [10bikip]
