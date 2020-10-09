@@ -1,6 +1,6 @@
 ---
 layout: audio-quang-ganh-lo-di-va-vui-song
-title: Chương 11
+title: Bai 11
 category: audio
 tags: [quangganhlodivavuisong]
 link: /audio/quangganhlodivavuisong/Chương 11.mp3 

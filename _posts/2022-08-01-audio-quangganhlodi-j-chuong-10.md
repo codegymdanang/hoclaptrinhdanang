@@ -1,6 +1,6 @@
 ---
 layout: audio-quang-ganh-lo-di-va-vui-song
-title: Chương 10
+title: Bai 10
 category: audio
 tags: [quangganhlodivavuisong]
 link: /audio/quangganhlodivavuisong/Chương 10.mp3 
