@@ -4,7 +4,7 @@ title: Cassandra tutorial
 category: frontend
 tags: [jquery]
 link: /downloads/pdf/jquery/JavaScript and JQuery.pdf 
-image: /images/thumbs/jquery/JavaScript and JQuery.png
+image: /images/thumbs/jquery/JavaScript-and-JQuery-min.png
 description : Cassandra tutorial 
 ---
 
