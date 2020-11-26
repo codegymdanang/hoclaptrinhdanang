@@ -1,6 +1,6 @@
 ---
 layout: audio-10-bi-quyet
-title: 11. Bí quyết thứ 10_ Hãy rèn luyện mình mới mở mỗi ngày 
+title: 11. Bí quyết thứ 10_ Hãy rèn luyện mình mới mẻ mỗi ngày 
 category: audio
 tags: [10bikip]
 link: /audio/10biquyetthanhcong/11. Bí quyết thứ 10_ Hãy rèn luyện mình mới mở mỗi ngày.mp3 

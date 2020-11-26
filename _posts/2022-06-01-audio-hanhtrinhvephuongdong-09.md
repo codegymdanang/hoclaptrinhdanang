@@ -1,6 +1,6 @@
 ---
 layout: audio-hanh-trinh-ve-phuong-dong
-title: 10. Chương 07_ Vị đạo sỹ có thể chữa mọi chứng bệnh 
+title: 10. Chương 07_ Vị đạo sĩ có thể chữa mọi chứng bệnh 
 category: audio
 tags: [hanhtrinhvephuongdong]
 link: /audio/hanhtrinhvephuongdong/10. Chương 07_ Vị đạo sỹ có thể chữa mọi chứng bệnh.mp3 

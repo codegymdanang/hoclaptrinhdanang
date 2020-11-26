@@ -1,6 +1,6 @@
 ---
 layout: audio-10-bi-quyet
-title: 04. Bí quyết thứ 3_ Hãy chẩn bị thật kỹ lưỡng 
+title: 04. Bí quyết thứ 3_ Hãy chuẩn bị thật kỹ lưỡng 
 category: audio
 tags: [10bikip]
 link: /audio/10biquyetthanhcong/04. Bí quyết thứ 3_ Hãy chẩn bị thật kỹ lưỡng.mp3 

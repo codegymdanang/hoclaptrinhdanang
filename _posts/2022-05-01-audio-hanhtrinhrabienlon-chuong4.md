@@ -1,6 +1,6 @@
 ---
 layout: audio-hanh-trinh-ra-bien-lon
-title: 06. Chương 4_ Không có trở ngại trong nhản quan thức tỉnh
+title: 06. Chương 4_ Không có trở ngại trong nhãn quan thức tỉnh
 category: audio
 tags: [hanhtrinhrabienlon]
 link: /audio/hanhtrinhrabienlon/06. Chương 4_ Không có trở ngại trong nhản quan thức tỉnh.mp3 

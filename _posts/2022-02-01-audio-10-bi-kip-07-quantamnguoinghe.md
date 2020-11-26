@@ -1,6 +1,6 @@
 ---
 layout: audio-10-bi-quyet
-title: 07. Bí quyết thứ 6_ Trình bày xúc tích, cô đọng
+title: 07. Bí quyết thứ 6_ Trình bày súc tích, cô đọng
 category: audio
 tags: [10bikip]
 link: /audio/10biquyetthanhcong/07. Bí quyết thứ 6_ Trình bày xúc tích, cô đọng.mp3 

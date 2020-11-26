@@ -1,6 +1,6 @@
 ---
 layout: audio-hanh-trinh-ve-phuong-dong
-title: 03. Chương 02_ Người đạo sỹ thành Benares 
+title: 03. Chương 02_ Người đạo sĩ thành Benares 
 category: audio
 tags: [hanhtrinhvephuongdong]
 link: /audio/hanhtrinhvephuongdong/03. Chương 02_ Người đạo sỹ thành Benares.mp3 
