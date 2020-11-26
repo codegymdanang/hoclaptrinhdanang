@@ -1,6 +1,6 @@
 ---
 layout: audio-thu-thach-nhung-uoc-mo
-title: 06. Bealive - Doanh nghiệp của niềm tin
+title: 06. Believe - Doanh nghiệp của niềm tin
 category: audio
 tags: [thuthachnhunguocmo]
 link: /audio/thuthachnhunguocmo/06. Bealive - Doanh nghiệp của niềm tin.mp3 

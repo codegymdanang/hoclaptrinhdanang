@@ -1,6 +1,6 @@
 ---
 layout: audio-thu-thach-nhung-uoc-mo
-title: 14. Nhà hàng ngủ cốc
+title: 14. Nhà hàng ngũ cốc
 category: audio
 tags: [thuthachnhunguocmo]
 link: /audio/thuthachnhunguocmo/14. Nhà hàng ngủ cốc.mp3 

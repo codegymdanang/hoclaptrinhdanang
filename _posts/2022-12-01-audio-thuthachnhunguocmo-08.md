@@ -1,6 +1,6 @@
 ---
 layout: audio-thu-thach-nhung-uoc-mo
-title: 08. Doanh nhân bắt đắc dĩ
+title: 08. Doanh nhân bất đắc dĩ
 category: audio
 tags: [thuthachnhunguocmo]
 link: /audio/thuthachnhunguocmo/08. Doanh nhân bắt đắc dĩ.mp3 

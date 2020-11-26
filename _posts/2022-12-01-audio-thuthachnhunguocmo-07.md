@@ -1,6 +1,6 @@
 ---
 layout: audio-thu-thach-nhung-uoc-mo
-title: 07. Giả mã sự giàu có
+title: 07. Giải mã sự giàu có
 category: audio
 tags: [thuthachnhunguocmo]
 link: /audio/thuthachnhunguocmo/07. Giả mã sự giàu có.mp3 
